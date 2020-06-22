@@ -15,7 +15,6 @@ from models.dnn import Network_lstm
 
 logging.getLogger('hpbandster').setLevel(logging.DEBUG)
 
-
 from collections import OrderedDict
 
 def evaluate_loss(model: nn.Module, x, x_t, target) -> float:
